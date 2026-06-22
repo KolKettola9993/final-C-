@@ -31,7 +31,6 @@
             uiTabControlMenu1 = new Sunny.UI.UITabControlMenu();
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
-            label1 = new Label();
             uiTabControlMenu1.SuspendLayout();
             SuspendLayout();
             // 
@@ -46,7 +45,7 @@
             uiTabControlMenu1.Multiline = true;
             uiTabControlMenu1.Name = "uiTabControlMenu1";
             uiTabControlMenu1.SelectedIndex = 0;
-            uiTabControlMenu1.Size = new Size(675, 405);
+            uiTabControlMenu1.Size = new Size(1345, 648);
             uiTabControlMenu1.SizeMode = TabSizeMode.Fixed;
             uiTabControlMenu1.TabIndex = 0;
             // 
@@ -54,7 +53,7 @@
             // 
             tabPage1.Location = new Point(201, 0);
             tabPage1.Name = "tabPage1";
-            tabPage1.Size = new Size(474, 405);
+            tabPage1.Size = new Size(1144, 648);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "tabPage1";
             tabPage1.UseVisualStyleBackColor = true;
@@ -63,32 +62,21 @@
             // 
             tabPage2.Location = new Point(201, 0);
             tabPage2.Name = "tabPage2";
-            tabPage2.Size = new Size(474, 405);
+            tabPage2.Size = new Size(1144, 648);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(797, 170);
-            label1.Name = "label1";
-            label1.Size = new Size(59, 25);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1357, 672);
-            Controls.Add(label1);
             Controls.Add(uiTabControlMenu1);
             Name = "Form1";
             Text = "Form1";
             uiTabControlMenu1.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -96,6 +84,5 @@
         private Sunny.UI.UITabControlMenu uiTabControlMenu1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private Label label1;
     }
 }
