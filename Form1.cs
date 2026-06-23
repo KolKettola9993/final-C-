@@ -16,5 +16,10 @@ namespace WinFormsApp16
         {
 
         }
+
+        private void Expense_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

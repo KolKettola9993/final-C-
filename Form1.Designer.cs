@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
@@ -41,6 +46,25 @@
             Dashboard = new TabPage();
             Income = new TabPage();
             Expense = new TabPage();
+            uiDataGridView21 = new Sunny.UI.UIDataGridView();
+            uiButton21 = new Sunny.UI.UIButton();
+            uiButton22 = new Sunny.UI.UIButton();
+            uiButton23 = new Sunny.UI.UIButton();
+            uiButton24 = new Sunny.UI.UIButton();
+            uiButton25 = new Sunny.UI.UIButton();
+            uiComboBox21 = new Sunny.UI.UIComboBox();
+            uiDatePicker21 = new Sunny.UI.UIDatePicker();
+            uiTextBox22 = new Sunny.UI.UITextBox();
+            uiTextBox23 = new Sunny.UI.UITextBox();
+            uiTextBox21 = new Sunny.UI.UITextBox();
+            uiLabel27 = new Sunny.UI.UILabel();
+            uiLabel26 = new Sunny.UI.UILabel();
+            uiLabel25 = new Sunny.UI.UILabel();
+            uiLabel24 = new Sunny.UI.UILabel();
+            uiLabel23 = new Sunny.UI.UILabel();
+            uiLabel22 = new Sunny.UI.UILabel();
+            uiLabel21 = new Sunny.UI.UILabel();
+            imageListExpense = new ImageList(components);
             Goals = new TabPage();
             icongoal4 = new Sunny.UI.UILabel();
             imageListgold = new ImageList(components);
@@ -101,7 +125,14 @@
             totalincome = new Sunny.UI.UILabel();
             Report1 = new Sunny.UI.UILabel();
             Report2 = new Sunny.UI.UILabel();
+            Column21 = new DataGridViewTextBoxColumn();
+            Column22 = new DataGridViewTextBoxColumn();
+            Column23 = new DataGridViewTextBoxColumn();
+            Column24 = new DataGridViewTextBoxColumn();
+            Column25 = new DataGridViewTextBoxColumn();
             uiTabControlMenu1.SuspendLayout();
+            Expense.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)uiDataGridView21).BeginInit();
             Goals.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)uiDataGridView1).BeginInit();
             Reports.SuspendLayout();
@@ -171,6 +202,24 @@
             // 
             // Expense
             // 
+            Expense.Controls.Add(uiDataGridView21);
+            Expense.Controls.Add(uiButton21);
+            Expense.Controls.Add(uiButton22);
+            Expense.Controls.Add(uiButton23);
+            Expense.Controls.Add(uiButton24);
+            Expense.Controls.Add(uiButton25);
+            Expense.Controls.Add(uiComboBox21);
+            Expense.Controls.Add(uiDatePicker21);
+            Expense.Controls.Add(uiTextBox22);
+            Expense.Controls.Add(uiTextBox23);
+            Expense.Controls.Add(uiTextBox21);
+            Expense.Controls.Add(uiLabel27);
+            Expense.Controls.Add(uiLabel26);
+            Expense.Controls.Add(uiLabel25);
+            Expense.Controls.Add(uiLabel24);
+            Expense.Controls.Add(uiLabel23);
+            Expense.Controls.Add(uiLabel22);
+            Expense.Controls.Add(uiLabel21);
             Expense.Location = new Point(201, 0);
             Expense.Margin = new Padding(2);
             Expense.Name = "Expense";
@@ -178,6 +227,275 @@
             Expense.TabIndex = 3;
             Expense.Text = "Expense";
             Expense.UseVisualStyleBackColor = true;
+            Expense.Click += Expense_Click;
+            // 
+            // uiDataGridView21
+            // 
+            uiDataGridView21.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(235, 243, 255);
+            uiDataGridView21.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            uiDataGridView21.BackgroundColor = Color.White;
+            uiDataGridView21.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle2.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            uiDataGridView21.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            uiDataGridView21.ColumnHeadersHeight = 32;
+            uiDataGridView21.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            uiDataGridView21.Columns.AddRange(new DataGridViewColumn[] { Column21, Column22, Column23, Column24, Column25 });
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            uiDataGridView21.DefaultCellStyle = dataGridViewCellStyle3;
+            uiDataGridView21.EnableHeadersVisualStyles = false;
+            uiDataGridView21.Font = new Font("Microsoft Sans Serif", 12F);
+            uiDataGridView21.GridColor = Color.FromArgb(80, 160, 255);
+            uiDataGridView21.Location = new Point(3, 578);
+            uiDataGridView21.Name = "uiDataGridView21";
+            uiDataGridView21.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.FromArgb(235, 243, 255);
+            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle4.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle4.SelectionForeColor = Color.White;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            uiDataGridView21.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            uiDataGridView21.RowHeadersWidth = 62;
+            dataGridViewCellStyle5.BackColor = Color.White;
+            dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
+            uiDataGridView21.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            uiDataGridView21.SelectedIndex = -1;
+            uiDataGridView21.Size = new Size(1059, 257);
+            uiDataGridView21.StripeOddColor = Color.FromArgb(235, 243, 255);
+            uiDataGridView21.TabIndex = 10;
+            // 
+            // uiButton21
+            // 
+            uiButton21.FillColor = Color.Green;
+            uiButton21.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton21.Location = new Point(3, 499);
+            uiButton21.MinimumSize = new Size(1, 1);
+            uiButton21.Name = "uiButton21";
+            uiButton21.Size = new Size(150, 52);
+            uiButton21.TabIndex = 3;
+            uiButton21.Text = "INSERT";
+            uiButton21.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiButton22
+            // 
+            uiButton22.FillColor = Color.Blue;
+            uiButton22.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton22.Location = new Point(234, 499);
+            uiButton22.MinimumSize = new Size(1, 1);
+            uiButton22.Name = "uiButton22";
+            uiButton22.Size = new Size(150, 52);
+            uiButton22.TabIndex = 4;
+            uiButton22.Text = "UPDATE";
+            uiButton22.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiButton23
+            // 
+            uiButton23.FillColor = Color.Red;
+            uiButton23.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton23.Location = new Point(466, 499);
+            uiButton23.MinimumSize = new Size(1, 1);
+            uiButton23.Name = "uiButton23";
+            uiButton23.Size = new Size(150, 52);
+            uiButton23.TabIndex = 5;
+            uiButton23.Text = "DELETE";
+            uiButton23.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiButton24
+            // 
+            uiButton24.FillColor = Color.FromArgb(255, 128, 0);
+            uiButton24.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton24.Location = new Point(687, 499);
+            uiButton24.MinimumSize = new Size(1, 1);
+            uiButton24.Name = "uiButton24";
+            uiButton24.Size = new Size(150, 52);
+            uiButton24.TabIndex = 6;
+            uiButton24.Text = "CLEAR";
+            uiButton24.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiButton25
+            // 
+            uiButton25.FillColor = Color.Purple;
+            uiButton25.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton25.Location = new Point(912, 499);
+            uiButton25.MinimumSize = new Size(1, 1);
+            uiButton25.Name = "uiButton25";
+            uiButton25.Size = new Size(150, 52);
+            uiButton25.TabIndex = 7;
+            uiButton25.Text = "VIEW ALL";
+            uiButton25.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiComboBox21
+            // 
+            uiComboBox21.DataSource = null;
+            uiComboBox21.FillColor = Color.White;
+            uiComboBox21.Font = new Font("Microsoft Sans Serif", 12F);
+            uiComboBox21.ItemHoverColor = Color.FromArgb(155, 200, 255);
+            uiComboBox21.ItemSelectForeColor = Color.FromArgb(235, 243, 255);
+            uiComboBox21.Location = new Point(234, 194);
+            uiComboBox21.Margin = new Padding(4, 5, 4, 5);
+            uiComboBox21.MinimumSize = new Size(63, 0);
+            uiComboBox21.Name = "uiComboBox21";
+            uiComboBox21.Padding = new Padding(0, 0, 30, 2);
+            uiComboBox21.Size = new Size(448, 44);
+            uiComboBox21.SymbolSize = 24;
+            uiComboBox21.TabIndex = 9;
+            uiComboBox21.TextAlignment = ContentAlignment.MiddleLeft;
+            uiComboBox21.Watermark = "";
+            // 
+            // uiDatePicker21
+            // 
+            uiDatePicker21.DateCultureInfo = new System.Globalization.CultureInfo("");
+            uiDatePicker21.FillColor = Color.White;
+            uiDatePicker21.Font = new Font("Microsoft Sans Serif", 12F);
+            uiDatePicker21.Location = new Point(234, 341);
+            uiDatePicker21.Margin = new Padding(4, 5, 4, 5);
+            uiDatePicker21.MaxLength = 10;
+            uiDatePicker21.MinimumSize = new Size(63, 0);
+            uiDatePicker21.Name = "uiDatePicker21";
+            uiDatePicker21.Padding = new Padding(0, 0, 30, 2);
+            uiDatePicker21.Size = new Size(448, 44);
+            uiDatePicker21.SymbolDropDown = 61555;
+            uiDatePicker21.SymbolNormal = 61555;
+            uiDatePicker21.SymbolSize = 24;
+            uiDatePicker21.TabIndex = 8;
+            uiDatePicker21.TextAlignment = ContentAlignment.MiddleLeft;
+            uiDatePicker21.Value = new DateTime(2026, 6, 23, 11, 53, 38, 555);
+            uiDatePicker21.Watermark = "";
+            // 
+            // uiTextBox22
+            // 
+            uiTextBox22.Font = new Font("Microsoft Sans Serif", 12F);
+            uiTextBox22.Location = new Point(234, 266);
+            uiTextBox22.Margin = new Padding(4, 5, 4, 5);
+            uiTextBox22.MinimumSize = new Size(1, 16);
+            uiTextBox22.Name = "uiTextBox22";
+            uiTextBox22.Padding = new Padding(5);
+            uiTextBox22.ShowText = false;
+            uiTextBox22.Size = new Size(448, 44);
+            uiTextBox22.TabIndex = 3;
+            uiTextBox22.TextAlignment = ContentAlignment.MiddleLeft;
+            uiTextBox22.Watermark = "";
+            // 
+            // uiTextBox23
+            // 
+            uiTextBox23.Font = new Font("Microsoft Sans Serif", 12F);
+            uiTextBox23.Location = new Point(234, 415);
+            uiTextBox23.Margin = new Padding(4, 5, 4, 5);
+            uiTextBox23.MinimumSize = new Size(1, 16);
+            uiTextBox23.Name = "uiTextBox23";
+            uiTextBox23.Padding = new Padding(5);
+            uiTextBox23.ShowText = false;
+            uiTextBox23.Size = new Size(448, 44);
+            uiTextBox23.TabIndex = 3;
+            uiTextBox23.TextAlignment = ContentAlignment.MiddleLeft;
+            uiTextBox23.Watermark = "";
+            // 
+            // uiTextBox21
+            // 
+            uiTextBox21.Font = new Font("Microsoft Sans Serif", 12F);
+            uiTextBox21.Location = new Point(234, 119);
+            uiTextBox21.Margin = new Padding(4, 5, 4, 5);
+            uiTextBox21.MinimumSize = new Size(1, 16);
+            uiTextBox21.Name = "uiTextBox21";
+            uiTextBox21.Padding = new Padding(5);
+            uiTextBox21.ShowText = false;
+            uiTextBox21.Size = new Size(448, 44);
+            uiTextBox21.TabIndex = 7;
+            uiTextBox21.TextAlignment = ContentAlignment.MiddleLeft;
+            uiTextBox21.Watermark = "";
+            // 
+            // uiLabel27
+            // 
+            uiLabel27.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            uiLabel27.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel27.Location = new Point(3, 425);
+            uiLabel27.Name = "uiLabel27";
+            uiLabel27.Size = new Size(150, 34);
+            uiLabel27.TabIndex = 6;
+            uiLabel27.Text = "Description";
+            // 
+            // uiLabel26
+            // 
+            uiLabel26.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            uiLabel26.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel26.Location = new Point(3, 351);
+            uiLabel26.Name = "uiLabel26";
+            uiLabel26.Size = new Size(150, 34);
+            uiLabel26.TabIndex = 5;
+            uiLabel26.Text = "Date";
+            // 
+            // uiLabel25
+            // 
+            uiLabel25.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            uiLabel25.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel25.Location = new Point(3, 276);
+            uiLabel25.Name = "uiLabel25";
+            uiLabel25.Size = new Size(150, 34);
+            uiLabel25.TabIndex = 4;
+            uiLabel25.Text = "Amount";
+            // 
+            // uiLabel24
+            // 
+            uiLabel24.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            uiLabel24.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel24.Location = new Point(3, 204);
+            uiLabel24.Name = "uiLabel24";
+            uiLabel24.Size = new Size(150, 34);
+            uiLabel24.TabIndex = 3;
+            uiLabel24.Text = "Category";
+            // 
+            // uiLabel23
+            // 
+            uiLabel23.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            uiLabel23.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel23.Location = new Point(3, 129);
+            uiLabel23.Name = "uiLabel23";
+            uiLabel23.Size = new Size(150, 34);
+            uiLabel23.TabIndex = 2;
+            uiLabel23.Text = "Expense ID";
+            // 
+            // uiLabel22
+            // 
+            uiLabel22.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            uiLabel22.ForeColor = Color.Red;
+            uiLabel22.Location = new Point(100, 35);
+            uiLabel22.Name = "uiLabel22";
+            uiLabel22.Size = new Size(327, 60);
+            uiLabel22.TabIndex = 1;
+            uiLabel22.Text = "EXPENSE MANAGEMENT";
+            uiLabel22.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // uiLabel21
+            // 
+            uiLabel21.Font = new Font("Microsoft Sans Serif", 12F);
+            uiLabel21.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel21.ImageKey = "8910722.png";
+            uiLabel21.ImageList = imageListExpense;
+            uiLabel21.Location = new Point(3, 8);
+            uiLabel21.Name = "uiLabel21";
+            uiLabel21.Size = new Size(91, 98);
+            uiLabel21.TabIndex = 0;
+            // 
+            // imageListExpense
+            // 
+            imageListExpense.ColorDepth = ColorDepth.Depth32Bit;
+            imageListExpense.ImageStream = (ImageListStreamer)resources.GetObject("imageListExpense.ImageStream");
+            imageListExpense.TransparentColor = Color.Transparent;
+            imageListExpense.Images.SetKeyName(0, "8910722.png");
             // 
             // Goals
             // 
@@ -256,7 +574,7 @@
             uiDataGridView1.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView1.GridColor = Color.FromArgb(80, 160, 255);
             uiDataGridView1.Location = new Point(44, 495);
-            uiDataGridView1.Margin = new Padding(4, 4, 4, 4);
+            uiDataGridView1.Margin = new Padding(4);
             uiDataGridView1.Name = "uiDataGridView1";
             uiDataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -316,7 +634,7 @@
             uiButton4.FillColor = Color.Red;
             uiButton4.Font = new Font("Microsoft Sans Serif", 12F);
             uiButton4.Location = new Point(589, 399);
-            uiButton4.Margin = new Padding(4, 4, 4, 4);
+            uiButton4.Margin = new Padding(4);
             uiButton4.MinimumSize = new Size(1, 1);
             uiButton4.Name = "uiButton4";
             uiButton4.Size = new Size(156, 55);
@@ -329,7 +647,7 @@
             uiButton3.FillColor = Color.Red;
             uiButton3.Font = new Font("Microsoft Sans Serif", 12F);
             uiButton3.Location = new Point(410, 399);
-            uiButton3.Margin = new Padding(4, 4, 4, 4);
+            uiButton3.Margin = new Padding(4);
             uiButton3.MinimumSize = new Size(1, 1);
             uiButton3.Name = "uiButton3";
             uiButton3.Size = new Size(156, 55);
@@ -342,7 +660,7 @@
             uiButton2.FillColor = Color.Black;
             uiButton2.Font = new Font("Microsoft Sans Serif", 12F);
             uiButton2.Location = new Point(228, 399);
-            uiButton2.Margin = new Padding(4, 4, 4, 4);
+            uiButton2.Margin = new Padding(4);
             uiButton2.MinimumSize = new Size(1, 1);
             uiButton2.Name = "uiButton2";
             uiButton2.Size = new Size(156, 55);
@@ -355,7 +673,7 @@
             uiButton1.FillColor = Color.FromArgb(0, 0, 192);
             uiButton1.Font = new Font("Microsoft Sans Serif", 12F);
             uiButton1.Location = new Point(44, 399);
-            uiButton1.Margin = new Padding(4, 4, 4, 4);
+            uiButton1.Margin = new Padding(4);
             uiButton1.MinimumSize = new Size(1, 1);
             uiButton1.Name = "uiButton1";
             uiButton1.Size = new Size(156, 55);
@@ -376,7 +694,7 @@
             // progressBar1
             // 
             progressBar1.Location = new Point(246, 332);
-            progressBar1.Margin = new Padding(4, 4, 4, 4);
+            progressBar1.Margin = new Padding(4);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(461, 16);
             progressBar1.TabIndex = 10;
@@ -384,7 +702,7 @@
             // textBox4
             // 
             textBox4.Location = new Point(246, 275);
-            textBox4.Margin = new Padding(4, 4, 4, 4);
+            textBox4.Margin = new Padding(4);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(460, 35);
             textBox4.TabIndex = 9;
@@ -392,7 +710,7 @@
             // textBox3
             // 
             textBox3.Location = new Point(246, 220);
-            textBox3.Margin = new Padding(4, 4, 4, 4);
+            textBox3.Margin = new Padding(4);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(460, 35);
             textBox3.TabIndex = 8;
@@ -410,7 +728,7 @@
             // textBox2
             // 
             textBox2.Location = new Point(246, 159);
-            textBox2.Margin = new Padding(4, 4, 4, 4);
+            textBox2.Margin = new Padding(4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(460, 35);
             textBox2.TabIndex = 6;
@@ -418,7 +736,7 @@
             // textBox1
             // 
             textBox1.Location = new Point(246, 95);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
+            textBox1.Margin = new Padding(4);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(460, 35);
             textBox1.TabIndex = 5;
@@ -902,6 +1220,41 @@
             Report2.Text = "REPORT";
             Report2.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // Column21
+            // 
+            Column21.HeaderText = "ID";
+            Column21.MinimumWidth = 8;
+            Column21.Name = "Column21";
+            Column21.Width = 195;
+            // 
+            // Column22
+            // 
+            Column22.HeaderText = "Category";
+            Column22.MinimumWidth = 8;
+            Column22.Name = "Column22";
+            Column22.Width = 200;
+            // 
+            // Column23
+            // 
+            Column23.HeaderText = "Amount";
+            Column23.MinimumWidth = 8;
+            Column23.Name = "Column23";
+            Column23.Width = 200;
+            // 
+            // Column24
+            // 
+            Column24.HeaderText = "Date";
+            Column24.MinimumWidth = 8;
+            Column24.Name = "Column24";
+            Column24.Width = 200;
+            // 
+            // Column25
+            // 
+            Column25.HeaderText = "Description";
+            Column25.MinimumWidth = 8;
+            Column25.Name = "Column25";
+            Column25.Width = 200;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -912,6 +1265,8 @@
             Name = "Form1";
             Text = "Form1";
             uiTabControlMenu1.ResumeLayout(false);
+            Expense.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)uiDataGridView21).EndInit();
             Goals.ResumeLayout(false);
             Goals.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)uiDataGridView1).EndInit();
@@ -988,5 +1343,29 @@
         private DataGridViewTextBoxColumn Column5;
         private ImageList imageListgold;
         private Sunny.UI.UILabel icongoal4;
+        private Sunny.UI.UILabel uiLabel27;
+        private Sunny.UI.UILabel uiLabel26;
+        private Sunny.UI.UILabel uiLabel25;
+        private Sunny.UI.UILabel uiLabel24;
+        private Sunny.UI.UILabel uiLabel23;
+        private Sunny.UI.UILabel uiLabel22;
+        private Sunny.UI.UILabel uiLabel21;
+        private ImageList imageListExpense;
+        private Sunny.UI.UITextBox uiTextBox21;
+        private Sunny.UI.UITextBox uiTextBox22;
+        private Sunny.UI.UITextBox uiTextBox23;
+        private Sunny.UI.UIButton uiButton21;
+        private Sunny.UI.UIButton uiButton22;
+        private Sunny.UI.UIButton uiButton23;
+        private Sunny.UI.UIButton uiButton24;
+        private Sunny.UI.UIButton uiButton25;
+        private Sunny.UI.UIComboBox uiComboBox21;
+        private Sunny.UI.UIDatePicker uiDatePicker21;
+        private Sunny.UI.UIDataGridView uiDataGridView21;
+        private DataGridViewTextBoxColumn Column21;
+        private DataGridViewTextBoxColumn Column22;
+        private DataGridViewTextBoxColumn Column23;
+        private DataGridViewTextBoxColumn Column24;
+        private DataGridViewTextBoxColumn Column25;
     }
 }
