@@ -47,6 +47,11 @@
             Income = new TabPage();
             Expense = new TabPage();
             uiDataGridView21 = new Sunny.UI.UIDataGridView();
+            Column21 = new DataGridViewTextBoxColumn();
+            Column22 = new DataGridViewTextBoxColumn();
+            Column23 = new DataGridViewTextBoxColumn();
+            Column24 = new DataGridViewTextBoxColumn();
+            Column25 = new DataGridViewTextBoxColumn();
             uiButton21 = new Sunny.UI.UIButton();
             uiButton22 = new Sunny.UI.UIButton();
             uiButton23 = new Sunny.UI.UIButton();
@@ -125,11 +130,6 @@
             totalincome = new Sunny.UI.UILabel();
             Report1 = new Sunny.UI.UILabel();
             Report2 = new Sunny.UI.UILabel();
-            Column21 = new DataGridViewTextBoxColumn();
-            Column22 = new DataGridViewTextBoxColumn();
-            Column23 = new DataGridViewTextBoxColumn();
-            Column24 = new DataGridViewTextBoxColumn();
-            Column25 = new DataGridViewTextBoxColumn();
             uiTabControlMenu1.SuspendLayout();
             Expense.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)uiDataGridView21).BeginInit();
@@ -278,6 +278,41 @@
             uiDataGridView21.StripeOddColor = Color.FromArgb(235, 243, 255);
             uiDataGridView21.TabIndex = 10;
             // 
+            // Column21
+            // 
+            Column21.HeaderText = "ID";
+            Column21.MinimumWidth = 8;
+            Column21.Name = "Column21";
+            Column21.Width = 195;
+            // 
+            // Column22
+            // 
+            Column22.HeaderText = "Category";
+            Column22.MinimumWidth = 8;
+            Column22.Name = "Column22";
+            Column22.Width = 200;
+            // 
+            // Column23
+            // 
+            Column23.HeaderText = "Amount";
+            Column23.MinimumWidth = 8;
+            Column23.Name = "Column23";
+            Column23.Width = 200;
+            // 
+            // Column24
+            // 
+            Column24.HeaderText = "Date";
+            Column24.MinimumWidth = 8;
+            Column24.Name = "Column24";
+            Column24.Width = 200;
+            // 
+            // Column25
+            // 
+            Column25.HeaderText = "Description";
+            Column25.MinimumWidth = 8;
+            Column25.Name = "Column25";
+            Column25.Width = 200;
+            // 
             // uiButton21
             // 
             uiButton21.FillColor = Color.Green;
@@ -372,6 +407,7 @@
             uiDatePicker21.SymbolNormal = 61555;
             uiDatePicker21.SymbolSize = 24;
             uiDatePicker21.TabIndex = 8;
+            uiDatePicker21.Text = "2026-06-23";
             uiDatePicker21.TextAlignment = ContentAlignment.MiddleLeft;
             uiDatePicker21.Value = new DateTime(2026, 6, 23, 11, 53, 38, 555);
             uiDatePicker21.Watermark = "";
@@ -821,7 +857,7 @@
             // 
             btnexit.BackColor = Color.Indigo;
             btnexit.ForeColor = SystemColors.ControlLightLight;
-            btnexit.Location = new Point(658, 779);
+            btnexit.Location = new Point(658, 780);
             btnexit.Margin = new Padding(2);
             btnexit.Name = "btnexit";
             btnexit.Size = new Size(152, 56);
@@ -1090,24 +1126,26 @@
             // 
             // report4
             // 
-            report4.Font = new Font("Microsoft Sans Serif", 12F);
-            report4.ForeColor = Color.FromArgb(48, 48, 48);
-            report4.Location = new Point(1082, 108);
+            report4.BackColor = Color.Transparent;
+            report4.Font = new Font("Modern No. 20", 14F, FontStyle.Bold);
+            report4.ForeColor = Color.Red;
+            report4.Location = new Point(1103, 100);
             report4.Margin = new Padding(2, 0, 2, 0);
             report4.Name = "report4";
-            report4.Size = new Size(222, 44);
+            report4.Size = new Size(202, 44);
             report4.TabIndex = 10;
             report4.Text = "NET SAVING";
             report4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // report3
             // 
-            report3.Font = new Font("Microsoft Sans Serif", 12F);
-            report3.ForeColor = Color.FromArgb(48, 48, 48);
-            report3.Location = new Point(604, 100);
+            report3.BackColor = Color.Transparent;
+            report3.Font = new Font("Modern No. 20", 14F, FontStyle.Bold);
+            report3.ForeColor = Color.Red;
+            report3.Location = new Point(585, 98);
             report3.Margin = new Padding(2, 0, 2, 0);
             report3.Name = "report3";
-            report3.Size = new Size(222, 44);
+            report3.Size = new Size(270, 44);
             report3.TabIndex = 9;
             report3.Text = "TOTAL EXPENSE";
             report3.TextAlign = ContentAlignment.MiddleCenter;
@@ -1142,7 +1180,7 @@
             Reimg1.ForeColor = Color.FromArgb(48, 48, 48);
             Reimg1.ImageKey = "1571098.png";
             Reimg1.ImageList = imageListReport;
-            Reimg1.Location = new Point(82, 78);
+            Reimg1.Location = new Point(57, 80);
             Reimg1.Margin = new Padding(2, 0, 2, 0);
             Reimg1.Name = "Reimg1";
             Reimg1.Size = new Size(91, 74);
@@ -1150,23 +1188,24 @@
             // 
             // Re3
             // 
-            Re3.Font = new Font("Microsoft Sans Serif", 12F);
-            Re3.ForeColor = Color.FromArgb(48, 48, 48);
+            Re3.BackColor = Color.Transparent;
+            Re3.Font = new Font("Modern No. 20", 14F, FontStyle.Bold);
+            Re3.ForeColor = Color.Red;
             Re3.ImageList = imageListReport;
-            Re3.Location = new Point(168, 100);
+            Re3.Location = new Point(135, 100);
             Re3.Margin = new Padding(2, 0, 2, 0);
             Re3.Name = "Re3";
-            Re3.Size = new Size(196, 40);
+            Re3.Size = new Size(248, 40);
             Re3.TabIndex = 5;
             Re3.Text = "TOTAL INCOME";
             Re3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // uiLabel2
             // 
-            uiLabel2.BackColor = Color.LightSkyBlue;
+            uiLabel2.BackColor = Color.DeepSkyBlue;
             uiLabel2.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel2.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel2.Location = new Point(1022, 154);
+            uiLabel2.Location = new Point(1034, 154);
             uiLabel2.Margin = new Padding(2, 0, 2, 0);
             uiLabel2.Name = "uiLabel2";
             uiLabel2.Size = new Size(282, 115);
@@ -1174,7 +1213,7 @@
             // 
             // uiLabel1
             // 
-            uiLabel1.BackColor = Color.LightPink;
+            uiLabel1.BackColor = Color.Crimson;
             uiLabel1.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel1.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel1.Location = new Point(535, 154);
@@ -1185,7 +1224,7 @@
             // 
             // totalincome
             // 
-            totalincome.BackColor = Color.Aquamarine;
+            totalincome.BackColor = Color.SpringGreen;
             totalincome.Font = new Font("Microsoft Sans Serif", 12F);
             totalincome.ForeColor = Color.FromArgb(48, 48, 48);
             totalincome.Location = new Point(82, 154);
@@ -1196,7 +1235,7 @@
             // 
             // Report1
             // 
-            Report1.BackColor = SystemColors.MenuHighlight;
+            Report1.BackColor = Color.Firebrick;
             Report1.Font = new Font("Microsoft Sans Serif", 12F);
             Report1.ForeColor = Color.FromArgb(48, 48, 48);
             Report1.ImageKey = "306405.png";
@@ -1209,7 +1248,7 @@
             // 
             // Report2
             // 
-            Report2.BackColor = SystemColors.MenuHighlight;
+            Report2.BackColor = Color.Firebrick;
             Report2.Font = new Font("Mongolian Baiti", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Report2.ForeColor = Color.White;
             Report2.Location = new Point(0, 0);
@@ -1219,41 +1258,6 @@
             Report2.TabIndex = 1;
             Report2.Text = "REPORT";
             Report2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // Column21
-            // 
-            Column21.HeaderText = "ID";
-            Column21.MinimumWidth = 8;
-            Column21.Name = "Column21";
-            Column21.Width = 195;
-            // 
-            // Column22
-            // 
-            Column22.HeaderText = "Category";
-            Column22.MinimumWidth = 8;
-            Column22.Name = "Column22";
-            Column22.Width = 200;
-            // 
-            // Column23
-            // 
-            Column23.HeaderText = "Amount";
-            Column23.MinimumWidth = 8;
-            Column23.Name = "Column23";
-            Column23.Width = 200;
-            // 
-            // Column24
-            // 
-            Column24.HeaderText = "Date";
-            Column24.MinimumWidth = 8;
-            Column24.Name = "Column24";
-            Column24.Width = 200;
-            // 
-            // Column25
-            // 
-            Column25.HeaderText = "Description";
-            Column25.MinimumWidth = 8;
-            Column25.Name = "Column25";
-            Column25.Width = 200;
             // 
             // Form1
             // 
