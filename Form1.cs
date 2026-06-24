@@ -21,5 +21,10 @@ namespace WinFormsApp16
         {
 
         }
+
+        private void DataGridView38_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
