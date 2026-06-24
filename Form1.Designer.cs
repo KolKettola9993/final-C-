@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle41 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle42 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle43 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle44 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle45 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle46 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle47 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle48 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle49 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle50 = new DataGridViewCellStyle();
             uiTabControlMenu1 = new Sunny.UI.UITabControlMenu();
             Login = new TabPage();
             UserAccount = new TabPage();
@@ -232,47 +232,47 @@
             // uiDataGridView21
             // 
             uiDataGridView21.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(235, 243, 255);
-            uiDataGridView21.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle41.BackColor = Color.FromArgb(235, 243, 255);
+            uiDataGridView21.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
             uiDataGridView21.BackgroundColor = Color.White;
             uiDataGridView21.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle2.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            uiDataGridView21.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle42.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle42.BackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle42.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle42.ForeColor = Color.White;
+            dataGridViewCellStyle42.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle42.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle42.WrapMode = DataGridViewTriState.True;
+            uiDataGridView21.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
             uiDataGridView21.ColumnHeadersHeight = 32;
             uiDataGridView21.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             uiDataGridView21.Columns.AddRange(new DataGridViewColumn[] { Column21, Column22, Column23, Column24, Column25 });
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.Window;
-            dataGridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            uiDataGridView21.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle43.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = SystemColors.Window;
+            dataGridViewCellStyle43.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle43.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle43.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle43.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle43.WrapMode = DataGridViewTriState.False;
+            uiDataGridView21.DefaultCellStyle = dataGridViewCellStyle43;
             uiDataGridView21.EnableHeadersVisualStyles = false;
             uiDataGridView21.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView21.GridColor = Color.FromArgb(80, 160, 255);
             uiDataGridView21.Location = new Point(3, 578);
             uiDataGridView21.Name = "uiDataGridView21";
             uiDataGridView21.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = Color.FromArgb(235, 243, 255);
-            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle4.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle4.SelectionForeColor = Color.White;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            uiDataGridView21.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle44.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = Color.FromArgb(235, 243, 255);
+            dataGridViewCellStyle44.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle44.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle44.SelectionBackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle44.SelectionForeColor = Color.White;
+            dataGridViewCellStyle44.WrapMode = DataGridViewTriState.True;
+            uiDataGridView21.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
             uiDataGridView21.RowHeadersWidth = 62;
-            dataGridViewCellStyle5.BackColor = Color.White;
-            dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
-            uiDataGridView21.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle45.BackColor = Color.White;
+            dataGridViewCellStyle45.Font = new Font("Microsoft Sans Serif", 12F);
+            uiDataGridView21.RowsDefaultCellStyle = dataGridViewCellStyle45;
             uiDataGridView21.SelectedIndex = -1;
             uiDataGridView21.Size = new Size(1059, 257);
             uiDataGridView21.StripeOddColor = Color.FromArgb(235, 243, 255);
@@ -583,29 +583,29 @@
             // 
             // uiDataGridView1
             // 
-            dataGridViewCellStyle6.BackColor = Color.FromArgb(235, 243, 255);
-            uiDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle46.BackColor = Color.FromArgb(235, 243, 255);
+            uiDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle46;
             uiDataGridView1.BackgroundColor = Color.White;
             uiDataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle7.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle7.ForeColor = Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-            uiDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle47.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle47.BackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle47.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle47.ForeColor = Color.White;
+            dataGridViewCellStyle47.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle47.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle47.WrapMode = DataGridViewTriState.True;
+            uiDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
             uiDataGridView1.ColumnHeadersHeight = 32;
             uiDataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             uiDataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = SystemColors.Window;
-            dataGridViewCellStyle8.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle8.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.False;
-            uiDataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle48.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = SystemColors.Window;
+            dataGridViewCellStyle48.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle48.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle48.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle48.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle48.WrapMode = DataGridViewTriState.False;
+            uiDataGridView1.DefaultCellStyle = dataGridViewCellStyle48;
             uiDataGridView1.EnableHeadersVisualStyles = false;
             uiDataGridView1.Font = new Font("Microsoft Sans Serif", 12F);
             uiDataGridView1.GridColor = Color.FromArgb(80, 160, 255);
@@ -613,18 +613,18 @@
             uiDataGridView1.Margin = new Padding(4);
             uiDataGridView1.Name = "uiDataGridView1";
             uiDataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = Color.FromArgb(235, 243, 255);
-            dataGridViewCellStyle9.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle9.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle9.SelectionForeColor = Color.White;
-            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
-            uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle49.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle49.BackColor = Color.FromArgb(235, 243, 255);
+            dataGridViewCellStyle49.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle49.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle49.SelectionBackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle49.SelectionForeColor = Color.White;
+            dataGridViewCellStyle49.WrapMode = DataGridViewTriState.True;
+            uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle49;
             uiDataGridView1.RowHeadersWidth = 51;
-            dataGridViewCellStyle10.BackColor = Color.White;
-            dataGridViewCellStyle10.Font = new Font("Microsoft Sans Serif", 12F);
-            uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle50.BackColor = Color.White;
+            dataGridViewCellStyle50.Font = new Font("Microsoft Sans Serif", 12F);
+            uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle50;
             uiDataGridView1.SelectedIndex = -1;
             uiDataGridView1.Size = new Size(1191, 235);
             uiDataGridView1.StripeOddColor = Color.FromArgb(235, 243, 255);
@@ -857,10 +857,10 @@
             // 
             btnexit.BackColor = Color.Indigo;
             btnexit.ForeColor = SystemColors.ControlLightLight;
-            btnexit.Location = new Point(658, 780);
+            btnexit.Location = new Point(585, 739);
             btnexit.Margin = new Padding(2);
             btnexit.Name = "btnexit";
-            btnexit.Size = new Size(152, 56);
+            btnexit.Size = new Size(187, 63);
             btnexit.TabIndex = 11;
             btnexit.Text = "Exit";
             btnexit.UseVisualStyleBackColor = false;
@@ -868,7 +868,7 @@
             // 
             // spendingbreakdown
             // 
-            spendingbreakdown.BackColor = Color.White;
+            spendingbreakdown.BackColor = Color.Transparent;
             spendingbreakdown.Controls.Add(moneyeducation);
             spendingbreakdown.Controls.Add(moneytransport);
             spendingbreakdown.Controls.Add(moneyshopping);
@@ -890,7 +890,7 @@
             spendingbreakdown.Controls.Add(report8);
             spendingbreakdown.Controls.Add(report5);
             spendingbreakdown.Cursor = Cursors.Cross;
-            spendingbreakdown.FillColor = Color.White;
+            spendingbreakdown.FillColor = Color.Transparent;
             spendingbreakdown.FillColor2 = Color.White;
             spendingbreakdown.Font = new Font("Mongolian Baiti", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             spendingbreakdown.Location = new Point(82, 291);
@@ -898,7 +898,10 @@
             spendingbreakdown.MinimumSize = new Size(1, 1);
             spendingbreakdown.Name = "spendingbreakdown";
             spendingbreakdown.Padding = new Padding(0, 40, 0, 0);
-            spendingbreakdown.Size = new Size(1490, 468);
+            spendingbreakdown.Radius = 35;
+            spendingbreakdown.RectColor = Color.DarkBlue;
+            spendingbreakdown.RectDisableColor = Color.Red;
+            spendingbreakdown.Size = new Size(1297, 432);
             spendingbreakdown.TabIndex = 0;
             spendingbreakdown.Text = "Spending Breakdown";
             spendingbreakdown.TextAlignment = ContentAlignment.MiddleLeft;
@@ -1021,7 +1024,7 @@
             // 
             // img6
             // 
-            img6.BackColor = Color.White;
+            img6.BackColor = Color.Transparent;
             img6.Font = new Font("Microsoft Sans Serif", 12F);
             img6.ForeColor = Color.FromArgb(48, 48, 48);
             img6.ImageKey = "190190.png";
@@ -1050,7 +1053,7 @@
             // 
             // img7
             // 
-            img7.BackColor = Color.White;
+            img7.BackColor = Color.Transparent;
             img7.Font = new Font("Microsoft Sans Serif", 12F);
             img7.ForeColor = Color.FromArgb(48, 48, 48);
             img7.ImageKey = "2331970.png";
@@ -1062,7 +1065,7 @@
             // 
             // img8
             // 
-            img8.BackColor = Color.White;
+            img8.BackColor = Color.Transparent;
             img8.Font = new Font("Microsoft Sans Serif", 12F);
             img8.ForeColor = Color.FromArgb(48, 48, 48);
             img8.ImageKey = "a-education-icon-education-icon-11553430161bimwyohogu.png";
@@ -1074,7 +1077,7 @@
             // 
             // img4
             // 
-            img4.BackColor = Color.White;
+            img4.BackColor = Color.Transparent;
             img4.Font = new Font("Microsoft Sans Serif", 12F);
             img4.ForeColor = Color.FromArgb(48, 48, 48);
             img4.ImageKey = "food-icon-7.png";
@@ -1210,6 +1213,7 @@
             uiLabel2.Name = "uiLabel2";
             uiLabel2.Size = new Size(282, 115);
             uiLabel2.TabIndex = 4;
+            uiLabel2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // uiLabel1
             // 
@@ -1221,6 +1225,7 @@
             uiLabel1.Name = "uiLabel1";
             uiLabel1.Size = new Size(291, 115);
             uiLabel1.TabIndex = 3;
+            uiLabel1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // totalincome
             // 
@@ -1232,6 +1237,7 @@
             totalincome.Name = "totalincome";
             totalincome.Size = new Size(282, 115);
             totalincome.TabIndex = 2;
+            totalincome.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Report1
             // 
